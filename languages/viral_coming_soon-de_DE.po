@@ -1,0 +1,939 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Viral Coming Soon Page by Growtheme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-07 13:22+0000\n"
+"PO-Revision-Date: 2017-08-07 14:05+0000\n"
+"Last-Translator: admin <hello@growtheme.com>\n"
+"Language-Team: German\n"
+"Language: de-DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: admin/options-init.php:202
+msgid "Choose one of your wordpress pages to replace with the coming soon page"
+msgstr ""
+"Wähle eine deiner Wordpress Seiten aus die du mit der Coming Soon Seite "
+"ersetzen möchtest"
+
+#: admin/options-init.php:215
+msgid "Show First Name Field"
+msgstr "Zeige das Vornamen Feld"
+
+#: admin/options-init.php:216
+msgid "Do you want to ask for the first name of the user?"
+msgstr "Möchtest du deine Besucher nach ihrem Vornamen fragen?"
+
+#: admin/options-init.php:224
+msgid "Name Field Placeholder"
+msgstr "Vornamen Feld Platzhalter"
+
+#: admin/options-init.php:225
+msgid ""
+"What should be the placeholder for your Namefield?<br /><em>E.g.: \"Your "
+"First Name\"</em>"
+msgstr ""
+"Was soll der Platzhalter für das Vornamen Feld sein?<br /><em>z.B.: \"Dein "
+"Vorname\"</em>"
+
+#: admin/options-init.php:226
+msgid "Your First Name"
+msgstr "Dein Vorname"
+
+#: admin/options-init.php:232
+msgid "Should the Name Field be required?"
+msgstr "Soll das Vornamen Feld verpflichtend auszufüllen sein?"
+
+#: admin/options-init.php:233
+msgid "If the visitor doesn't fill in the Firstname an error is displayed"
+msgstr ""
+"Wenn du diese Option aktivierst wird ein Fehler angezeigt wenn Besucher das "
+"Vornamen Feld nicht ausfüllen "
+
+#: admin/options-init.php:234
+msgid "Required"
+msgstr "Verpflichtend"
+
+#: admin/options-init.php:235
+msgid "Optional"
+msgstr "Optional"
+
+#: admin/options-init.php:242
+msgid "Custom Javascript"
+msgstr "Benutzerdefinierter JavaScript Code"
+
+#: admin/options-init.php:243
+msgid ""
+"Copy & Paste your custom javascript code here. For Example: Google Analytics "
+"or Facebook Tracking Pixel Code"
+msgstr ""
+"Hier kannst du benutzerdefinierten JavaScript Code kopieren und einfügen. "
+"Zum Beispiel: Google Analytics oder einen Facebook Tracking Pixel"
+
+#: admin/options-init.php:249
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: admin/options-init.php:250
+msgid "Write here any custom CSS you want to add."
+msgstr ""
+"Schreibe hier jegliches benutzerdefiniertes CSS, dass du hinzufügen möchtest"
+
+#: admin/options-init.php:260
+msgid "Email Optin"
+msgstr "Email Optin"
+
+#: admin/options-init.php:261
+msgid ""
+"Connect your favorite Email Provider to the Coming Soon Plugin.<br />We "
+"currently support <strong>Mailchimp</strong>, <strong>AWeber</strong>, "
+"<strong>CampaignMonitor</strong> and <strong>GetResponse</strong>."
+msgstr ""
+"Hier kannst du deinen lieblings Email Marketing Anbieter mit dem Coming Soon "
+"Plugin verbinden<br />Wir unterstützen derzeit <strong>Mailchimp</strong>, "
+"<strong>AWeber</strong>, <strong>CampaignMonitor</strong> und <strong>"
+"GetResponse</strong>."
+
+#: admin/options-init.php:267
+msgid "Choose your Email Service"
+msgstr "Wähle deinen Email Marketing Anbieter aus"
+
+#: admin/options-init.php:289
+msgid "Mailchimp API Key"
+msgstr "Mailchimp API Key"
+
+#: admin/options-init.php:290 admin/options-init.php:378
+#: admin/options-init.php:427
+msgid "Copy & Paste your API Key here"
+msgstr ""
+
+#: admin/options-init.php:291
+msgid ""
+"<p><em>Click on the link, login to your MailChimp Account.</em></p><p><em>"
+"Then create a new API Key and copy it into this field.</em></p><p><a "
+"href=\"https://admin.mailchimp.com/account/api/\" title=\"Mailchimp API "
+"Key\" target=\"_blank\">Click here to get your Mailchimp API Key</a></p>"
+msgstr ""
+
+#: admin/options-init.php:298
+msgid "Mailchimp API Status"
+msgstr ""
+
+#: admin/options-init.php:305 admin/options-init.php:354
+#: admin/options-init.php:394
+msgid "Which List do you want to use?"
+msgstr ""
+
+#: admin/options-init.php:306
+msgid "Choose one of your Mailchimp Lists"
+msgstr ""
+
+#: admin/options-init.php:313 admin/options-init.php:402
+msgid "Use Double Optin?"
+msgstr ""
+
+#: admin/options-init.php:314 admin/options-init.php:403
+msgid ""
+"Should Visitors first need to confirm their email-adress before being "
+"subscribed?<br /><em style=\"color:green\">Recommended</em>"
+msgstr ""
+
+#: admin/options-init.php:315 admin/options-init.php:404
+msgid "Double Optin"
+msgstr ""
+
+#: admin/options-init.php:316 admin/options-init.php:405
+msgid "Single Optin"
+msgstr ""
+
+#: admin/options-init.php:337
+msgid "AWeber Authorization Code"
+msgstr ""
+
+#: admin/options-init.php:338
+msgid "Copy & Paste your Authorization Code here"
+msgstr ""
+
+#: admin/options-init.php:339
+msgid ""
+"<p><em>Click on the link and login to your AWeber Account.</em></p><p><em>"
+"Then copy the Authorization Code into this field</em></p><p><a href=\"https:"
+"//auth.aweber.com/1.0/oauth/authorize_app/f38e902d\" title=\"Aweber Auth "
+"Code\" target=\"_blank\">Click here to get your AWeber Authorization Code</a>"
+"</p>"
+msgstr ""
+
+#: admin/options-init.php:346
+msgid "AWeber API Status"
+msgstr ""
+
+#: admin/options-init.php:355
+msgid "Choose one of your Aweber Lists"
+msgstr ""
+
+#: admin/options-init.php:377
+msgid "Campaign Monitor API Key"
+msgstr ""
+
+#: admin/options-init.php:379
+msgid ""
+"<p><em>Click on the link and login to your Campaign Monitor Account.</em></p>"
+"<p><em>Next go to your \"Account Settings\"-Page and click on \"Show API "
+"Key\".</em></p><p><em>Copy the code into this field and save the "
+"settings</em></p><p><a href=\"https://login.createsend.com/l#\" "
+"title=\"Campaign Monitor API Key\" target=\"_blank\">Click here to get your "
+"Campaign Monitor API Key</a></p>"
+msgstr ""
+
+#: admin/options-init.php:386
+msgid "Campaign Monitor API Status"
+msgstr ""
+
+#: admin/options-init.php:395
+msgid "Choose one of your Campaign Monitor Lists"
+msgstr ""
+
+#: admin/options-init.php:426
+msgid "GetResponse API Key"
+msgstr ""
+
+#: admin/options-init.php:428
+msgid ""
+"<p><em>Click on the link and login to your GetResponse Account.</em></p><p>"
+"<em>Then copy the API Key into this field</em></p><p><a href=\"https://app."
+"getresponse.com/account.html#api\" title=\"GetResponse API Key\" "
+"target=\"_blank\">Click here to get your GetResponse API Key</a></p>"
+msgstr ""
+
+#: admin/options-init.php:435
+msgid "GetResponse API Status"
+msgstr ""
+
+#: admin/options-init.php:443
+msgid "Which Campaign do you want to use?"
+msgstr ""
+
+#: admin/options-init.php:444
+msgid "Choose one of your GetResponse Campaigns"
+msgstr ""
+
+#: admin/options-init.php:566
+msgid "Styling"
+msgstr ""
+
+#: admin/options-init.php:567
+msgid "Upload a Logo, Background Image and choose your basic colors."
+msgstr ""
+
+#: admin/options-init.php:573
+msgid "Upload a Logo"
+msgstr ""
+
+#: admin/options-init.php:578
+msgid "Logo Text Color"
+msgstr ""
+
+#: admin/options-init.php:579
+msgid "You can specify a custom Logo text color if you don't upload a Logo"
+msgstr ""
+
+#: admin/options-init.php:587
+msgid "Box Background Color"
+msgstr ""
+
+#: admin/options-init.php:588
+msgid ""
+"Choose the Background Color and Transparency of the Text Box<br /><em>"
+"Default: rgba( 255, 255, 255, 1)</em>"
+msgstr ""
+
+#: admin/options-init.php:615
+msgid "At least 1200x800 px in size"
+msgstr ""
+
+#: admin/options-init.php:628
+msgid "Background Overlay Color"
+msgstr ""
+
+#: admin/options-init.php:629
+msgid ""
+"Choose the Background Overlay Color and Transparency<br /><em>Default: rgba( "
+"0, 0, 0, 0.8)</em>"
+msgstr ""
+
+#: admin/options-init.php:655
+msgid "Box Text Color"
+msgstr ""
+
+#: admin/options-init.php:656
+msgid "The color of the main box text"
+msgstr ""
+
+#: admin/options-init.php:664
+msgid "Small Link Text Color"
+msgstr ""
+
+#: admin/options-init.php:665
+msgid "The color of the small link below the Call To Action Button"
+msgstr ""
+
+#: admin/options-init.php:673
+msgid "Call To Action Color"
+msgstr ""
+
+#: admin/options-init.php:674
+msgid ""
+"Carefully used to emphazize important Call to Actions<br /><em>Default: "
+"#d52c40</em>"
+msgstr ""
+
+#: admin/options-init.php:690
+msgid "Coming Soon Page"
+msgstr ""
+
+#: admin/options-init.php:691
+msgid "Set the settings for your Coming Soon Page"
+msgstr ""
+
+#: admin/options-init.php:697 admin/options-init.php:900
+msgid "Page Headline"
+msgstr ""
+
+#: admin/options-init.php:698
+msgid "This should be your main benefit statement"
+msgstr ""
+
+#: admin/options-init.php:699
+msgid ""
+"Ready to go, High Quality, Premium Resources for Webdesigners and Creative "
+"Folks Weekly Completely for Free!"
+msgstr ""
+
+#: admin/options-init.php:704 admin/options-init.php:906
+msgid "Page Text"
+msgstr ""
+
+#: admin/options-init.php:705
+msgid ""
+"The text should explain that the blog is still not launched yet but that "
+"people can sign up for your prelaunch list"
+msgstr ""
+
+#: admin/options-init.php:706
+msgid ""
+"We are currently still in beta mode.\n"
+"Click the link below to join thousands of designers that will get advanced "
+"notice once we launch."
+msgstr ""
+
+#: admin/options-init.php:712
+msgid "Call To Action Text"
+msgstr ""
+
+#: admin/options-init.php:713
+msgid "The text of your Call to Action Button"
+msgstr ""
+
+#: admin/options-init.php:714
+msgid "Get Early Notification »"
+msgstr ""
+
+#: admin/options-init.php:719
+msgid "Small Link below Button"
+msgstr ""
+
+#: admin/options-init.php:720
+msgid ""
+"This is a second call to action, below the button shown as a simple link. It "
+"should say clearly what the user can do after clicking on the link"
+msgstr ""
+
+#: admin/options-init.php:721
+msgid "Yes! I Want on The Early Bird Notification List"
+msgstr ""
+
+#: admin/options-init.php:726
+msgid "Optin Form Popup Headline"
+msgstr ""
+
+#: admin/options-init.php:727
+msgid "The Headline of the Optin Form Popup"
+msgstr ""
+
+#: admin/options-init.php:728
+msgid "Get On The Early Bird Notification List"
+msgstr ""
+
+#: admin/options-init.php:733
+msgid "Optin Form Popup Subscribe Button"
+msgstr ""
+
+#: admin/options-init.php:734
+msgid "The Text of the Call to Action (Subscribe) Button inside the Popup"
+msgstr ""
+
+#: admin/options-init.php:735 admin/options-init.php:822
+msgid "Get on the List!"
+msgstr ""
+
+#: admin/options-init.php:740
+msgid "Optin Form Popup Small Text"
+msgstr ""
+
+#: admin/options-init.php:741
+msgid "The small text inside your Popup, shown below the optin form"
+msgstr ""
+
+#: admin/options-init.php:742 admin/options-init.php:836
+msgid "100% Privacy. We will never spam you."
+msgstr ""
+
+#: admin/options-init.php:747
+msgid "Show Countdown"
+msgstr ""
+
+#: admin/options-init.php:748
+msgid "Do you want to show a countdown?"
+msgstr ""
+
+#: admin/options-init.php:756
+msgid "When do you want to launch your blog?"
+msgstr ""
+
+#: admin/options-init.php:757
+msgid ""
+"Choose a date in the future. <br /><em>Important: Once you reach the date "
+"the plugin will be automatically deactivated.</em>"
+msgstr ""
+
+#: admin/options-init.php:767
+msgid "Exit Intent Popup"
+msgstr ""
+
+#: admin/options-init.php:768
+msgid ""
+"Configure your Exit Intent Popup. It shows up if a visitor tries to abandon "
+"the page, without having joined your prelaunch list. The copy of the popup "
+"should make a reference to your leadbribe, that subscribers get after "
+"joining."
+msgstr ""
+
+#: admin/options-init.php:774
+msgid "Upload your Leadmagnet"
+msgstr ""
+
+#: admin/options-init.php:780
+msgid "Enable Exit Intent Popup?"
+msgstr ""
+
+#: admin/options-init.php:781
+msgid ""
+"Do you want to show a popup if the visitor intents to leave the page without "
+"subscribing?"
+msgstr ""
+
+#: admin/options-init.php:789
+msgid "Popup Headline"
+msgstr ""
+
+#: admin/options-init.php:790
+msgid "The Headline of the Exit Intent Popup"
+msgstr ""
+
+#: admin/options-init.php:791
+msgid ""
+"Hold on! If you join the Early Bird List today, you will get an extremly "
+"useful, High Quality Icon Set right into your inbox for free!"
+msgstr ""
+
+#: admin/options-init.php:796
+msgid "Popup Text"
+msgstr ""
+
+#: admin/options-init.php:797
+msgid "The Text of the Exit Intent Popup"
+msgstr ""
+
+#: admin/options-init.php:798
+msgid ""
+"Pixel perfect | Easy to use | 3 Sizes black and white | PNG, AI, SVGs & Icon "
+"Font included | Free for personal & commercial use"
+msgstr ""
+
+#: admin/options-init.php:803
+msgid "YES Button Text"
+msgstr ""
+
+#: admin/options-init.php:804
+msgid "What should say the \"Yes\" Button"
+msgstr ""
+
+#: admin/options-init.php:805
+msgid "When visitors click on this button they will be asked for their email"
+msgstr ""
+
+#: admin/options-init.php:806
+msgid "I want my free Icon Set now"
+msgstr ""
+
+#: admin/options-init.php:812
+msgid "NO Button Text"
+msgstr ""
+
+#: admin/options-init.php:813
+msgid "What should say the \"No\" Button"
+msgstr ""
+
+#: admin/options-init.php:814
+msgid "This button will close the Exit Intent Popup"
+msgstr ""
+
+#: admin/options-init.php:815
+msgid "I will create it on my own"
+msgstr ""
+
+#: admin/options-init.php:820
+msgid "Exit Intent Popup Call To Action Text"
+msgstr ""
+
+#: admin/options-init.php:821
+msgid "The Text of the Submit Call to Action Button inside the Popup"
+msgstr ""
+
+#: admin/options-init.php:827
+msgid "Optin Form Headline"
+msgstr ""
+
+#: admin/options-init.php:828
+msgid "The headline of the Optin Form"
+msgstr ""
+
+#: admin/options-init.php:829
+msgid "Where should I send you the free Icon Set?"
+msgstr ""
+
+#: admin/options-init.php:834
+msgid "Popup Small Text"
+msgstr ""
+
+#: admin/options-init.php:835
+msgid "The small text inside your Popup"
+msgstr ""
+
+#: admin/options-init.php:845
+msgid "Confirmation Page"
+msgstr ""
+
+#: admin/options-init.php:846
+msgid ""
+"If you use a Double Optin Process with your Email Provider, you have to "
+"configure this page."
+msgstr ""
+
+#: admin/options-init.php:852
+msgid "Headline"
+msgstr ""
+
+#: admin/options-init.php:853 admin/options-init.php:939
+msgid "Hold on! One more thing to do."
+msgstr ""
+
+#: admin/options-init.php:858
+msgid "Text"
+msgstr ""
+
+#: admin/options-init.php:859
+msgid "Explain what the user has to do in order to subscribe."
+msgstr ""
+
+#: admin/options-init.php:860
+#, php-format
+msgid ""
+"<p>Thank you for your interest. There is just one last step! Please check "
+"your inbox right now and <strong>click the confirmation link that we just "
+"sent you.</strong></p><p>[gmail]</p><p>Its just a safety procedure to make "
+"sure no one has hijacked your email address and it will only take you a "
+"moment.</p><p><strong>Dont wait. 80% of people who confirm do so in the "
+"first 5 minutes.</strong></p><p>[counter]</p><p>If you dont do this right "
+"now, you wont be notified when we publish an update.</p><p><em>Note: If you "
+"dont receive the e-mail in 5 minutes, please check your spam folder. To "
+"avoid filtering our emails, please add us to your address book.</p>"
+msgstr ""
+
+#: admin/options-init.php:861
+msgid ""
+"You can include two shortcodes.<br />Insert a 5 minute counter: <input "
+"type=\"text\" value=\"[counter]\" readonly=\"readonly\" onClick=\"this."
+"select();\"><br />Insert a direct Link for Gmail Users: <input type=\"text\" "
+"value=\"[gmail]\" readonly=\"readonly\" onClick=\"this.select();\">"
+msgstr ""
+
+#: admin/options-init.php:866
+msgid "Show Gmail Link"
+msgstr ""
+
+#: admin/options-init.php:867
+msgid ""
+"Do you want to show a link that gives Gmail Users an opportunity to go "
+"directly to your confirmation email?<br /><em>(Make sure to set correctly "
+"your from email below)</em>"
+msgstr ""
+
+#: admin/options-init.php:875
+msgid "Your From Email"
+msgstr ""
+
+#: admin/options-init.php:876
+msgid "Which Email do you use to send the confirmation emails from?"
+msgstr ""
+
+#: admin/options-init.php:886
+msgid "Thank You Page"
+msgstr ""
+
+#: admin/options-init.php:887
+msgid "Configure the settings of your Thank you page."
+msgstr ""
+
+#: admin/options-init.php:901
+msgid "Thank you! You are now on the list."
+msgstr ""
+
+#: admin/options-init.php:907
+msgid ""
+"Thank the user for subscribing.<br /><br />Be sure to include the [download] "
+"shortcode as well, so users that opted in for the leadbribe can actually "
+"download it."
+msgstr ""
+
+#: admin/options-init.php:908
+msgid ""
+"<p>You will be notified as soon as we launch. In the meantime you will be "
+"updated about high quality ressources we post elsewhere on the web.</p><p>We "
+"would love to put a face to every name on our Early Birds List.\n"
+"                <strong>So just press the like button below.</strong></p><p>"
+"[like]</p><p><strong>To give you a special thank you and as promised, you "
+"can download a huge, high quality Icon Set right now, using the download "
+"button below.</strong></p><p>[download]</p><h3>Share this with your "
+"friends</h3><p>Now that you got your Icon Set, why not tell your friends "
+"about this great opportunity? Who couldn't use a great resource, helping "
+"them to save time, money and effort with their projects?</p><p>[share]</p>"
+msgstr ""
+
+#: admin/options-init.php:910
+msgid ""
+"You can include three shortcodes.<br />Insert a like button or box: <input "
+"onClick=\"this.select();\" type=\"text\" value=\"[like]\" "
+"readonly=\"readonly\"><br />Insert a download link for your leadbribe: "
+"<input onClick=\"this.select();\" type=\"text\" value=\"[download]\" "
+"readonly=\"readonly\"><br />Insert share buttons for facebook and twitter: "
+"<input type=\"text\" onClick=\"this.select();\" value=\"[share]\" "
+"readonly=\"readonly\">"
+msgstr ""
+
+#: admin/options-init.php:915
+msgid "Choose Facebook Like Style"
+msgstr ""
+
+#: admin/options-init.php:916
+msgid ""
+"Do you want to show a Facebook Like Button or the Facebook Page Plugin <em>"
+"(Page Box with Like Button)</em>"
+msgstr ""
+
+#: admin/options-init.php:917
+msgid "Like Button"
+msgstr ""
+
+#: admin/options-init.php:918
+msgid "Like Box"
+msgstr ""
+
+#: admin/options-init.php:925
+msgid "Your Facebook Page"
+msgstr ""
+
+#: admin/options-init.php:926
+msgid "Copy & Paste here the URL to your facebook page"
+msgstr ""
+
+#: admin/options-init.php:931
+msgid "Your Twitter Username"
+msgstr ""
+
+#: admin/options-init.php:932
+msgid "This will be used to notify you about tweets"
+msgstr ""
+
+#: admin/options-init.php:937
+msgid "Click to Tweet"
+msgstr ""
+
+#: admin/options-init.php:938
+msgid "The text of the tweet to share your landingpage and the leadbribe"
+msgstr ""
+
+#: theme/index.php:109
+msgid "Years"
+msgstr ""
+
+#: theme/index.php:110
+msgid "Months"
+msgstr ""
+
+#: theme/index.php:111
+msgid "Days"
+msgstr ""
+
+#: theme/index.php:112
+msgid "Hours"
+msgstr ""
+
+#: theme/index.php:113
+msgid "Minutes"
+msgstr ""
+
+#: theme/index.php:114
+msgid "Seconds"
+msgstr ""
+
+#. Name of the plugin
+msgid "Viral Coming Soon Page by Growtheme"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Turn visitors into readers before publishing a single post. Build your "
+"audience from scratch in no time. Easy to set up. Premium code. For ever "
+"free."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.driveblogtraffic.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Jascha Brinkmann"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://driveblogtraffic.com/"
+msgstr ""
+
+#: admin/options-init.php:201
+msgid "On which page do you want to show the coming soon page?"
+msgstr "Anstatt welcher Seite möchtest du die Coming Soon Seite zeigen?"
+
+#: shortcodes.php:62
+#, php-format
+msgid ""
+"<a href=\"%1$s\" target=\"_blank\" title=\"Download now\" class=\"button "
+"large\">Download now <i class=\"fa fa-cloud-download\"></i></a>"
+msgstr ""
+"<a href=\"%1$s\" target=\"_blank\" title=\"Download now\" class=\"button "
+"large\">Jetzt runterladen <i class=\"fa fa-cloud-download\"></i></a>"
+
+#: shortcodes.php:83
+msgid "Share now"
+msgstr "Jetzt teilen"
+
+#: shortcodes.php:83
+msgid "Click to tweet"
+msgstr "Twittern"
+
+#: shortcodes.php:38
+#, php-format
+msgid ""
+"<p class=\"gmail\">If you use Gmail, <a href=\"%1$s\" title=\"Go directly to "
+"your Gmail Inbox\">click here to go straight to your confirmation email</a>!"
+"</p>"
+msgstr ""
+"<p class=\"gmail\">Falls du Gmail benutzt, <a href=\"%1$s\" title=\"Geh "
+"direkt zu deiner Gmail Inbox\">klick hier um direkt zu der Confirmation "
+"Email zu gehen</a>!</p>"
+
+#: viral_coming_soon.php:267 viral_coming_soon.php:285
+msgid "Choose or Upload a Leadmagnet"
+msgstr "Wähle oder lade einen Leadmagnet hoch"
+
+#: viral_coming_soon.php:286
+msgid "Use this Leadmagnet"
+msgstr "Benutz dies als Leadmagnet"
+
+#: admin/options-init.php:28 admin/options-init.php:29
+msgid "Coming Soon"
+msgstr "Coming Soon"
+
+#: admin/options-init.php:120
+msgid ""
+"<strong>Thank you for using our Coming Soon Plugin!</strong> If you "
+"encounter any problems feel free to write to <a href=\"mailto:"
+"support@growtheme.com\">support@growtheme.com</a>.<br />If you like the "
+"plugin, please leave us a <a href=\"https://wordpress."
+"org/support/view/plugin-reviews/viral-coming-soon?filter=5#postform\" "
+"target=\"_blank\">★★★★★ star rating on Wordpress.org</a>. This helps us a "
+"lot to spread the word!"
+msgstr ""
+"<strong>Vielen Dank für die benutzung unseres Coming Soon Plugins!</strong> "
+"Falls du irgendwelche Probleme findest schreib uns direkt an <a "
+"href=\"mailto:support@growtheme.com\">support@growtheme.com</a>.<br />Falls "
+"dir das Plugin gefällt, lass es uns durch ein <a href=\"https://wordpress."
+"org/support/view/plugin-reviews/viral-coming-soon?filter=5#postform\" "
+"target=\"_blank\">★★★★★ sterne Bewertung auf Wordpress.org</a> wissen. Dies "
+"hilf enorm um das Plugin zu verbreiten!"
+
+#: admin/options-init.php:121
+msgid ""
+"If you have downloaded this plugin without having joined our free email "
+"course, make sure you get the lessons that will help you to get your first "
+"1000 subscribers: <a href=\"http://driveblogtraffic.com/\">Get your first "
+"lesson here</a>"
+msgstr ""
+"Falls du das Plugin heruntergeladen hast ohne dich für unseren kostenlosen "
+"Email Kurs anzumelden, hole es so schnell wie Möglich nach um zu lernen wie "
+"du deine ersten 1.000 Email Abonnenten erhalten kannst: <a href=\"http:"
+"//driveblogtraffic.com/\">Klick hier um dich kostenlos anzumelden</a>"
+
+#: admin/options-init.php:129
+msgid "General"
+msgstr "Allgemeines"
+
+#: admin/options-init.php:130
+msgid ""
+"Here you can set the general settings of the Coming Soon Plugin. For example "
+"if you want to enable or disable the Coming Soon Page, show or hide a First "
+"Name Field, use a different Email Field Placeholder, show the Sign Up Form "
+"in a Popup or connect your Twitter Account."
+msgstr ""
+"Hier kannst du die Allgemeinen Einstellungen für das Coming Soon Plugin "
+"vornehmen. Zum Beispiel ob du die Coming Soon Seite an- oder ausschalten "
+"möchtest, ob du deine Besucher nach ihrem Vornamen fragen möchtest, einen "
+"verschiedenen Platzhalter für dein Email Adressen Felt nutzen möchtest, das "
+"Newsletter Anmelde Formular in einem Popup zeigen möchest oder um das Plugin "
+"mit deinem Twitter Account zu verbinden."
+
+#: admin/options-init.php:136
+msgid "Spread the word? ♥"
+msgstr "Helfen das Plugin bekannt zu machen? ♥"
+
+#: admin/options-init.php:137
+#, php-format
+msgid ""
+"<span style='line-height:1.5; color:green'>This premium plugin is completely "
+"free, but still receives continues updates and support. <strong>Over 90% of "
+"our free users, spread the word by setting this option to &quot;Yes&quot;."
+"</strong> This will only display a small credit link at the bottom of the "
+"plugin, helping your visitors to find and make use of the same plugin.</span>"
+msgstr ""
+"<span style='line-height:1.5; color:green'>Dieses Premium Plugin ist "
+"komplett kostenlos, erhält aber dennoch laufend Updates und kostenlosen "
+"Support. <strong>Über 90% unserer kostenlosen User entscheiden sich dabei zu "
+"helfen, dass Plugin bekannter zu machen indem sie diese Option aktivieren."
+"</strong> Wenn du diese Option aktivierst wird lediglich ein kleiner Link am "
+"Ende deiner Coming Soon Seite gezeigt der anderen Besuchern hilft das Plugin "
+"zu finden.</span>"
+
+#: admin/options-init.php:138 theme/index.php:75
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/options-init.php:139 theme/index.php:76
+msgid "No"
+msgstr "Nein"
+
+#: admin/options-init.php:145
+msgid "Plugin Status"
+msgstr "Plugin Status"
+
+#: admin/options-init.php:146
+msgid "Do you want to enable the Coming Soon Page for all Blog visitors?"
+msgstr "Möchtest du das Coming Soon Plugin für alle Besucher aktivieren?"
+
+#: admin/options-init.php:147 admin/options-init.php:156
+msgid "Enabled"
+msgstr "Aktivieren"
+
+#: admin/options-init.php:148 admin/options-init.php:157
+msgid "Disabled"
+msgstr "Deaktivieren"
+
+#: admin/options-init.php:154
+msgid "Preview Mode"
+msgstr "Vorschau Modus"
+
+#: admin/options-init.php:155
+msgid ""
+"When enabled you can preview your the page when logged in as an admin user"
+msgstr ""
+"Wenn du die Vorschau aktivierst, dann kannst du die Coming Soon Seite sehen "
+"solange du als Admin Nutzer eingeloggt bist."
+
+#: admin/options-init.php:166
+msgid "Hide for Admins?"
+msgstr "Für Admin Nutzer verstecken?"
+
+#: admin/options-init.php:167
+msgid ""
+"If you want to work on your blog, while showing to visitors the coming soon "
+"page set this option to \"Hide\""
+msgstr ""
+"Falls du an deinem Blog im Hintegrund weiterarbeiten möchtest, während alle "
+"Besucher die Coming Soon Seite sehen, setze diese Option zu \"Verstecken\""
+
+#: admin/options-init.php:168 admin/options-init.php:218
+#: admin/options-init.php:750 admin/options-init.php:869
+msgid "Hide"
+msgstr "Verstecken"
+
+#: admin/options-init.php:169 admin/options-init.php:217
+#: admin/options-init.php:749 admin/options-init.php:868
+msgid "Show"
+msgstr "Zeigen"
+
+#: admin/options-init.php:178
+msgid "Use as Homepage"
+msgstr "Als Startseite benutzen"
+
+#: admin/options-init.php:179
+msgid ""
+"Do you want to show the Coming Soon Page as your Blog Homepage or do you "
+"prefer a Landingpage?"
+msgstr ""
+"Möchtest du die Coming Soon Seite als deine Blog Startseite benutzen oder "
+"möchtest du das Coming Soon Lieber auf einer Unterseite benutzen?"
+
+#: admin/options-init.php:180
+msgid "Show as Homepage"
+msgstr "Als Startseite benutzen"
+
+#: admin/options-init.php:181
+msgid "Show as Landingpage"
+msgstr "Als Unterseite benutzen"
+
+#: admin/options-init.php:187
+msgid "Forward all traffic?"
+msgstr "Alle Besucher weiterleiten?"
+
+#: admin/options-init.php:188
+msgid ""
+"Enable this if you wan't to forward all your subpages to the coming soon "
+"page. You shouldn't use this if you have a lot of existing content that is "
+"already ranking well on Google. Please make sure as well that you select "
+"\"hide\" for admins to be able to work on your Blog beind the scenes."
+msgstr ""
+"Du kannst diese Option benuzten um alle Besucher auf deine Coming Soon Seite "
+"weiterzuleiten. Du solltest diese Option nicht benutzen, falls du bereits "
+"eine Menge existierender Beiträge hast die bereits gut in Google zu finden "
+"sind. Des Weiteren kannst du die Option \"Für Admin Nutzer verstecken\" "
+"verwenden um weiterhin im Hintergrund an deinem Blog arbeiten zu können."
+
+#: admin/options-init.php:189 admin/options-init.php:782
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: admin/options-init.php:190 admin/options-init.php:783
+msgid "Disable"
+msgstr "Deaktivieren"

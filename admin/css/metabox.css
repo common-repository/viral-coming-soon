@@ -1,0 +1,34 @@
+#growbox_meta, #growbox_meta_2{
+    overflow: hidden;
+    padding-bottom: 1em;
+}
+ 
+#growbox_meta p, #growbox_meta_2 p {
+    clear: both;
+}
+
+#growbox_meta p, #growbox_meta_2 p {
+    line-height: 2;
+}
+
+#growbox_meta .hndle {
+    background: #e24e57;
+    border:1px solid #e24e57;
+    color: #FFF
+}
+ 
+.growbox-row-title{
+    display: block;
+    float: left;
+    width: 200px;
+}
+ 
+.growbox-row-content{
+    float: left;
+    padding-bottom: 1em;
+}
+ 
+.growbox-row-content label{
+    display: block;
+    line-height: 1.75em;
+}

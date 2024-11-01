@@ -1,0 +1,404 @@
+#exit-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index:10000001;
+  text-align: center;
+  white-space: nowrap;
+}
+
+  #exit-popup:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+  }
+
+#exit-popup .underlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.8);
+  cursor: pointer;
+  -webkit-animation: fadein 0.5s;
+  animation: fadein 0.5s;
+  z-index: 9000001;
+}
+
+#exit-popup .modal {
+  width: 60%;
+  background:#FFF;
+  box-shadow:0 70px 100px -80px rgba(0,0,0,1);
+  z-index: 10000002;
+  -webkit-animation: popin 0.3s;
+  animation: popin 0.3s;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  position: relative;
+}
+
+#exit-popup h3 {
+  color: #fff;
+  font-size: 1em;
+  margin: 0.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#exit-popup .modal-body {
+  padding: 20px 35px;
+  font-size: 0.9em;
+}
+
+#exit-popup p {
+  color: #344a5f;
+  line-height: 1.3em;
+}
+
+#exit-popup form {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/*
+#exit-popup form input[type=text], #exit-popup form input[type=email], #exit-popup form button {
+  padding: 12px;
+  font-size: 1.2em;
+  width: 400px;
+  height:60px;
+  border-radius: 4px;
+  border:none;
+  -webkit-font-smoothing: antialiased;
+  display: block;
+  margin:0 auto 15px auto;
+  box-sizing:border-box;
+}
+
+#exit-popup form button {
+  cursor: pointer;
+  line-height: 60px;
+  padding:0;
+  letter-spacing: normal;
+  margin: 0 auto;
+}
+
+#exit-popup form p {
+  text-align: left;
+  margin-left: 35px;
+  opacity: 0.8;
+  margin-top: 1px;
+  padding-top: 1px;
+  font-size: 0.9em;
+}*/
+
+#exit-popup .modal-footer {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+#exit-popup .modal-footer p {
+  text-transform: capitalize;
+  cursor: pointer;
+  display: inline;
+  border-bottom: 1px solid #344a5f;
+}
+
+#exit-popup .modal .layer-one {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  padding-bottom: 40px;
+}
+
+#exit-popup .modal .layer-two {
+  display: none;
+  vertical-align: middle;
+  white-space: normal;
+  padding-bottom: 40px;
+}
+
+  #exit-popup .modal .layer-two h2 {
+    margin-top: 40px;
+  }
+
+  #exit-popup .modal .layer-two small {
+    color: rgba(0,0,0,0.6);
+    font-size: 1rem;
+    display: block;
+    margin: 2rem 0 0 0;
+  }
+
+  #exit-popup .modal .layer-two small:before {
+    content:'\f023';
+    display: inline-block;
+    margin-right: 10px;
+    color: #000;
+    font-family: FontAwesome;
+  }
+
+#exit-popup {
+  text-align: center;
+}
+
+#exit-popup h2 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  margin: 40px;
+}
+
+  #exit-popup h2 em {
+    font-weight: 400;
+  }
+
+  #exit-popup .layer-one .button {
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+    display: inline-block;
+    text-transform: none;
+    text-align: left;
+  }
+
+    #exit-popup .layer-one .button small {
+      float: left;
+      line-height: 20px;
+      font-size: 18px;
+      font-weight: 400;
+      width:170px;
+      letter-spacing: normal;
+      margin-top: 20px;
+    }
+
+    #exit-popup .layer-one .button span {
+      float: left;
+      font-size: 48px;
+      font-weight: 900;
+      width:100px;
+      margin: 0 0 0 20px;
+      text-transform: uppercase;
+    }
+
+    #exit-popup .layer-one .button.primary {
+      margin-right:5px;
+      background: #d52c40;
+      border:3px solid #d52c40;
+    }
+
+    #exit-popup .layer-one .button.primary:hover, #exit-popup .layer-two .button.primary:hover {
+      background: #FFF;
+      color:#e74b4f;
+    }
+
+    #exit-popup .layer-one .button.secondary {
+      background: #6e6570;
+      color:rgba(0,0,0,0.5);
+      margin-left: 5px;
+    }
+
+    #exit-popup .layer-one .button.secondary:hover {
+      background: #1d1d1d;
+      color:#6e6570
+    }
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes popin {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  85% {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@-ms-keyframes popin {
+  0% {
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  85% {
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 1;
+  }
+
+  100% {
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes popin {
+  0% {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  85% {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Transitions */
+#exit-popup .layer-one .button.primary {
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -o-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+#exit-popup .layer-one .button.primary:hover {
+  opacity: 1;
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale(1.0);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: scale(1.02);
+    opacity: 1.0;
+  }
+  to {
+    -webkit-transform: scale(1.0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes pulse {
+  from {
+    transform: scale(1.0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.02);
+    opacity: 1.0;
+  }
+  to {
+    transform: scale(1.0);
+    opacity: 1;
+  }
+}
+@-o-keyframes pulse {
+  from {
+    transform: scale(1.0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.02);
+    opacity: 1.0;
+  }
+  to {
+    transform: scale(1.0);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1.0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.02);
+    opacity: 1.0;
+  }
+  to {
+    transform: scale(1.0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

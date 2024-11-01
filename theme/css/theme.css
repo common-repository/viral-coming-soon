@@ -1,0 +1,362 @@
+/* Plugin Version 1.1.13 */
+
+body, html {
+  font-size: 16px;
+  background: #eceef1;
+  height:100%;
+  min-height: 100%;
+  font-family: "proxima-nova",Arial, sans-serif;
+}
+
+.background {
+  top:0;
+  left:0;
+  bottom:0;
+  right: 0;
+  position: fixed;
+}
+
+.page {
+  text-align: center;
+  white-space: nowrap;
+  height: 100%;
+}
+
+.page:before {
+  content: '';
+  display: inline-block;
+  height:100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
+.clock {
+  width:620px!important;
+  margin: 0 auto!important;
+  zoom: 0.7;
+  -moz-transform: scale(0.7)
+}
+
+.box {
+  display: inline-block;
+  vertical-align: middle;
+  background: #FFFFFF;
+  box-shadow: 0px 45px 55px -25px rgba(0,0,0,0.1);
+  float: none;
+  padding: 2rem;
+  white-space: normal;
+}
+
+.logo {
+  display: block;
+  height: 100px;
+  width: 100%;
+  margin: 10px auto;
+  font-size: 2rem;
+  line-height: 100px;
+  color:#ccc;
+  font-weight: 800;
+  letter-spacing: 0.6rem;
+  text-transform: uppercase;
+  font-style:italic;
+}
+
+hr {
+  width: 30%;
+  height: 2px;
+  border:none;
+  padding: 0;
+  margin: 1rem auto 2rem auto;
+  background: #eceef1;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: "proxima-nova",Arial, sans-serif;
+}
+
+h1 {
+  color:#27292b;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  margin: 2rem 2rem;
+  text-transform: capitalize;
+}
+
+  p {
+    margin:1rem 2rem 2rem 2rem;
+    color: #27292b;
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
+
+  p small {
+    font-size: 1.125rem;
+  }
+
+  p small a {
+    color: #adadad;
+    border-bottom:1px dotted #adadad;
+  }
+
+  p small a:hover {
+    color: #d52c40;
+  }
+
+  .confirmation h1 {
+    font-size: 2rem;
+  }
+
+  .confirmation p {
+    font-size: 1rem;
+    text-align: left;
+    margin: 1rem 2rem;
+  }
+
+  .confirmation .clock {
+    margin:0 auto!important;
+    width: 300px!important;
+    zoom: 0.7;
+    -moz-transform: scale(0.7)
+  }
+
+    .confirmation .clock .flip-clock-label {
+      display: none;
+    }
+
+  .gmail {
+    background:rgba(0,0,0,0.05);
+    display:block;
+    border-top:2px solid #ccc;
+    border-bottom:2px solid #ccc;
+    line-height:80px;
+  }
+
+    .gmail:before {
+      background:url("../img/gmail.png") 0 -11px no-repeat;
+      width:72px;
+      height:50px;
+      vertical-align:-20px;
+      margin:0 20px;
+      display:inline-block;
+      content:"";
+    }
+
+.button.large, button {
+  background: #d52c40;
+  border:3px solid #d52c40;
+  border-radius: 5px;
+  font-size: 2.125rem;
+  font-weight: 500;
+  padding: 0.75rem 2rem;
+  margin: 0;
+  transition: background-color 300ms ease-out, border-color 300ms ease-out;
+}
+
+  .button:hover, .button:active, .button:focus, button:hover, button:active, button:focus {
+    background:#FFF;
+    color:#d52c40;
+  }
+
+.powered {
+  padding-bottom: 2rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+  .powered a {
+    color: transparent;
+    opacity: 0.6;
+  }
+
+  .powered a:hover {
+    opacity: 1;
+  }
+
+  .powered a.light {
+    color: black;
+  }
+
+  .powered a.dark {
+    color: white;
+  }
+
+.reveal-modal {
+  border:none;
+  background:#FFF;
+  box-shadow: none;
+  text-align: center;
+  padding: 3rem;
+}
+
+  .reveal-modal:focus {
+    outline:none;
+  }
+
+  .reveal-modal > :first-child {
+  }
+
+  .reveal-modal-bg {
+    background: #000;
+    background: rgba(0,0,0,0.75);
+  }
+
+  .reveal-modal .close-reveal-modal {
+    font-size: 4rem;
+    font-weight: bold;
+    top: 0;
+    right:0.6rem;
+  }
+
+  .reveal-modal h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 700;
+    color: #27292b;
+    margin: 1rem;
+    text-transform: capitalize;
+  }
+
+    form input, form button {
+      width: 100%;
+    }
+
+    form input {
+      background:#ddd;
+      border:2px solid #ddd;
+      padding: 1rem;
+      font-size: 1.25rem;
+      display: block;
+      margin: 1rem 0;
+      border-radius: 5px;
+    }
+
+    form span {
+        display: none;
+    }
+
+    form input:focus {
+      border:2px solid #ddd;
+      background: #FFF;
+      outline: none;
+    }
+
+    form button:focus {
+      outline: none;
+    }
+
+  .reveal-modal button:hover {
+    background:#50d2af;
+    border:3px solid #50d2af;
+    color:#FFF;
+  }
+
+  .reveal-modal hr {
+    margin:2rem auto;
+  }
+
+  .reveal-modal small {
+    color: rgba(0,0,0,0.6);
+    font-size: 1rem;
+    display: block;
+    margin: 2rem 0 0 0;
+  }
+
+  .reveal-modal small:before {
+    content:'\f023';
+    display: inline-block;
+    margin-right: 10px;
+    color: #000;
+    font-family: FontAwesome;
+  }
+
+  .reveal-modal.small {
+    width: 50%;
+  }
+
+  .button {
+    border-radius: 3px;
+  }
+
+  .facebook {
+    border: 2px solid #265999;
+    background: #265999;
+    color: #FFF;
+    font-size: 1.25rem;
+  }
+
+  .facebook:hover, .facebook:focus, .facebook:active {
+    color:#265999!important;
+    background:#FFF;
+  }
+
+  .twitter {
+    border: 2px solid #00b0ef;
+    background: #00b0ef;
+    color: #FFF;
+    font-size: 1.25rem;
+  }
+
+  .twitter:hover, .twitter:focus, .twitter:active {
+    color:#00b0ef!important;
+    background:#FFF;
+  }
+
+.preview {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #ffeebf;
+  color: #8f7e50;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-family: verdana;
+  padding: 0.625rem;
+  letter-spacing: 0.125rem;
+  border-right:1px solid #e4c672;
+  border-bottom:1px solid #e4c672;
+}
+
+  .preview:hover {
+    background: #ffeebf;
+    color: #000;
+  }
+
+@media only screen and (max-width: 60em) {
+  
+  h1 {
+    margin:1rem 0;
+  }
+
+  p {
+    margin:1rem 0;
+  }
+
+  .button.large, button {
+    font-size: 1.375rem;
+  }
+
+  .box {
+    padding: 1rem;
+  }
+
+    .clock {
+        width:620px!important;
+        margin: 0 auto!important;
+        zoom: 0.5;
+        -moz-transform: scale(0.5)
+    }
+
+  .reveal-modal.small {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+
+  #exit-popup .modal {
+    width: 100%;
+    height:100%;
+  }
+}
